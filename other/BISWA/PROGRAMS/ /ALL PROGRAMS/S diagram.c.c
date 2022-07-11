@@ -1,0 +1,61 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int i;
+	for(i=1;i<=28;i++)
+	{
+		printf("#");
+	}	
+	printf("\n");
+	for(i=1;i<=28;i++)
+	{
+		printf("#");
+	}
+	printf("\n");
+	for(i=1;i<=25;i++)
+	{
+		printf("#");
+	}	
+	for(i=1;i<=15;i++)
+	{
+		printf("###\n");
+	}
+	for(i=1;i<=29;i++)
+	{
+		if(i==29)
+		printf("###########################");
+	}
+	printf("\n");
+	for(i=1;i<=27;i++)
+	{
+		printf("#");
+	}	
+	printf("\n");
+	for(i=1;i<=27;i++)
+	{
+		printf("#");
+	}	
+	printf("\n");
+	for(i=1;i<=15;i++)
+	{
+		printf("\t\t\t");
+		printf("###\n");
+	}
+			for(i=1;i<=27;i++)
+	{
+		printf("#");
+	}
+	printf("\n");
+				for(i=1;i<=27;i++)
+	{
+		printf("#");
+	}
+	printf("\n");
+				for(i=1;i<=27;i++)
+	{
+		printf("#");
+	}
+getch();
+}
+
